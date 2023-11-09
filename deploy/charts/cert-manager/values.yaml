@@ -325,8 +325,8 @@ webhook:
   # ref: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
   securityContext:
     runAsNonRoot: true
-    seccompProfile:
-      type: RuntimeDefault
+#    seccompProfile:
+#      type: RuntimeDefault
 
   podDisruptionBudget:
     enabled: false
@@ -527,8 +527,8 @@ cainjector:
   # ref: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
   securityContext:
     runAsNonRoot: true
-    seccompProfile:
-      type: RuntimeDefault
+#    seccompProfile:
+#      type: RuntimeDefault
 
   podDisruptionBudget:
     enabled: false
@@ -649,8 +649,8 @@ startupapicheck:
   # ref: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
   securityContext:
     runAsNonRoot: true
-    seccompProfile:
-      type: RuntimeDefault
+#    seccompProfile:
+#      type: RuntimeDefault
 
   # Container Security Context to be set on the controller component container
   # ref: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
